@@ -1,4 +1,4 @@
-import * as React from "react";
+﻿import * as React from "react";
 import { Link } from "gatsby";
 
 const linkOrText = (
@@ -28,6 +28,7 @@ type PaginationLinksProps = {
     numberOfPages: number,
     previousPagePath?: string,
     nextPagePath?: string
+
   }
 };
 
